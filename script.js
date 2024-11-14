@@ -48,7 +48,7 @@ function submitQuiz() {
   }
 
   var answer10 = document.querySelector('input[name="q10"]:checked');
-  if (answer10 && answer10.value === "b") {
+  if (answer10 && answer10.value === "c") {
     score++;
   }
 
